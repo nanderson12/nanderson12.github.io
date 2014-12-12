@@ -1,0 +1,149 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#header{
+	background-color: #f7f7f7;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#logo{
+	margin: auto;
+	display: block;
+	width: 176px;
+	height: 203px;
+}
+
+.homelink li{
+	float: left;
+}
+
+#nav{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+li{
+	display: inline;
+	margin-right: 50px;
+	font-family: Georgia, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 2px 2px 7px #111111;
+}
+
+#home{
+	background: url("http://pixabay.com/static/uploads/photo/2012/03/03/23/00/alcohol-21488_640.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.mainpage{
+	padding-bottom: 300px;
+}
+
+.article{
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	padding: 20px;
+	font-family: Verdana sans-serif;
+	background-color: #f7f7f7;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.mainpage .article{
+	width: 25%;
+	background-color: #f7f7f7;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.ingredientpage .article{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.contentpage .article{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#content{
+	background: url("http://pixabay.com/static/uploads/photo/2012/03/03/23/00/alcohol-21488_640.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.contentfigure{
+	width: 420px;
+	float: right;
+	margin-right: 30px;
+}
+
+.contentfigure a{
+	text-decoration: none;
+	color: rgb(89, 57, 34);
+}
+
+figure{
+	display: block;
+	width: 400px;
+	background-color: rgb(241, 136, 48);
+	margin: 0px;
+	padding: 9px;
+	text-align: left;
+}
+
+figure img{
+	border: 1px solid #111111;
+}
+
+#contact{
+	background-color: rgba(241, 136, 48, 0.3);
+}
+
+.contactpage{
+	padding: 40px;
+	font-family: Georgia, serif;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Verdana sans-serif;
+}
+
+.contactfigure{
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgb(241, 135, 47);
+	margin: 7px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+a:hover{
+	color: rgb(246, 191, 59);
+}
+
+.contactpage a{
+	color: rgb(192, 78, 29);
+}
+
+#footer{
+	height: 100;
+	background-color: rgba(241, 136, 48, 0.7);
+	text-align: center;
+	font-family: Georgia, serif;
+	padding-bottom: 5px;
+	clear: both;
+}
+
